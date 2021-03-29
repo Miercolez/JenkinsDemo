@@ -12,6 +12,7 @@ pipeline{
                 echo 'Hello World'
                 sh 'java --version'
                 sh 'mvn --version'
+                sh 'mvn clean compile'
             }
         }
     }
