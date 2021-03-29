@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunManager">
@@ -59,7 +64,7 @@
       <updated>1617020680068</updated>
       <workItem from="1617020681211" duration="262000" />
       <workItem from="1617021393148" duration="35000" />
-      <workItem from="1617021462341" duration="1488000" />
+      <workItem from="1617021462341" duration="2767000" />
     </task>
     <task id="LOCAL−00001" summary="Added jenkinsfile">
       <created>1617021550314</created>
@@ -91,7 +96,19 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1617022395336</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Added another hello">
+      <created>1617022973386</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1617022973386</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Removed one hellow world">
+      <created>1617023204792</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1617023204792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +141,8 @@
     <MESSAGE value="Added jenkinsfile" />
     <MESSAGE value="Added hellow world i class helloWorld" />
     <MESSAGE value="Implemented mvn test in jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented mvn test in jenkinsfile" />
+    <MESSAGE value="Added another hello" />
+    <MESSAGE value="Removed one hellow world" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed one hellow world" />
   </component>
 </project>

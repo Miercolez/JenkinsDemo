@@ -20,5 +20,10 @@ pipeline{
                 sh 'mvn test'
             }
         }
+        stage('Packing to JAR'){
+            steps{
+                sh 'man package'
+            }
+        }
     }
 }
