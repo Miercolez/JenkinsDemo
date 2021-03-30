@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
+    <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="Removed one hellow world">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <workItem from="1617112257913" duration="596000" />
       <workItem from="1617112868758" duration="69000" />
       <workItem from="1617114096845" duration="146000" />
-      <workItem from="1617115110902" duration="8974000" />
+      <workItem from="1617115110902" duration="9968000" />
     </task>
     <task id="LOCAL−00001" summary="Added jenkinsfile">
       <created>1617021550314</created>
@@ -277,7 +278,13 @@
       <option name="presentableId" value="LOCAL−00034" />
       <updated>1617129557596</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL−00035" summary="Removed one hellow world">
+      <created>1617129923440</created>
+      <option name="number" value="LOCAL−00035" />
+      <option name="presentableId" value="LOCAL−00035" />
+      <updated>1617129923440</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
