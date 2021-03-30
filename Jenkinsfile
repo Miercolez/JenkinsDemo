@@ -1,13 +1,6 @@
 pipeline{
     agent any
 
-    environment{
-        BITBUCKET = credentials('Bitbucket')
-
-        sonarToken = credentials('JenkinsAgentSonar')
-        USERNAME = credentials('DOCKER_USERNAME')
-        PASSWORD = credentials('DOCKER_PASSWORD')
-    }
 
     tools{
         maven 'Maven 3.6.3'
