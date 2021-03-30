@@ -22,7 +22,7 @@ pipeline{
         }
         stage('Packing to JAR'){
             steps{
-                sh 'man package'
+                sh 'mvn package'
             }
         }
     }
