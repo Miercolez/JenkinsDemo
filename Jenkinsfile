@@ -3,6 +3,7 @@ pipeline{
 
     environment{
         BITBUCKET = credentials('Bitbucket')
+
         sonarToken = credentials('JenkinsAgentSonar')
         USERNAME = credentials('DOCKER_USERNAME')
         PASSWORD = credentials('DOCKER_PASSWORD')
