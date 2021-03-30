@@ -38,9 +38,7 @@ pipeline{
         }
         stage('Push docker image to docker hub'){
             steps{
-                sh 'cat ~/my_password.txt | docker login --username foo --password-stdin'
-                sh 'docker login --username foo --password-stdin < ~/my_password'
-                sh 'echo "$MY_PASSWORD" | docker login --username foo --password-stdin'
+                sh 'docker login'
             }
         }
     }
