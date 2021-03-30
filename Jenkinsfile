@@ -38,7 +38,7 @@ pipeline{
         }
         stage('Push docker image to Docker hub'){
             steps{
-                sh 'docker push jonasfredriksson/jenkinsdemo:1.1 .'
+                sh 'docker push jonasfredriksson/jenkinsdemo:1.1'
             }
         }
     }
