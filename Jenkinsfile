@@ -25,5 +25,10 @@ pipeline{
                 sh 'mvn package'
             }
         }
+        stage('Creating Image to docker'){
+            steps{
+                sh 'docker build -t jenkinsdemo:1.0'
+            }
+        }
     }
 }
