@@ -23,11 +23,12 @@ pipeline{
         stage('Packing to JAR'){
             steps{
                 sh 'mvn package'
+                sh 'docker --version'
             }
-        }
-        stage('Creating Image to docker'){
-            steps{
-                sh 'docker build -t jenkinsdemo:1.0 .'
+            post {
+                success {
+                    archiveArtifacts 'target/*.jar'
+                }
             }
         }
     }
