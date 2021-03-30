@@ -31,5 +31,10 @@ pipeline{
                 }
             }
         }
+        stage('Create docker image'){
+            steps{
+                sh 'docker build -t jonasfredriksson/jenkinsdemo:1.1 .'
+            }
+        }
     }
 }
