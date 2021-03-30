@@ -1,30 +1,45 @@
-node {
-    def app
+pipeline {
+    agent any
 
-    stage('Clone repository') {
-
-
-        checkout scm
+    tools {
+        maven 'Maven 3.6.3'
+        jdk 'jdk_16'
     }
 
-    stage('Build image') {
-
-        app = docker.build("brandonjones085/test")
-    }
-
-    stage('Test image') {
-
-
-        app.inside {
-            sh 'echo "Tests passed"'
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Hello World'
+                sh 'java --version'
+                sh 'mvn --version'
+                sh 'mvn clean compile'
+            }
         }
-    }
-
-    stage('Push image') {
-
-        docker.withRegistry('https://registry.hub.docker.com', 'git') {
-            app.push("${env.BUILD_NUMBER}")
-            app.push("latest")
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Packing to JAR') {
+            steps {
+                sh 'mvn package'
+                sh 'docker --version'
+            }
+            post {
+                success {
+                    archiveArtifacts 'target/*.jar'
+                }
+            }
+        }
+        stage('Create docker image') {
+            steps {
+                sh 'docker build -t jonasfredriksson/jenkinsdemo:1.1 .'
+            }
+        }
+        stage('Docker push') {
+            docker.withRegistry('https://1234567890.dkr.ecr.us-east-1.amazonaws.com', 'ecr:us-east-1:demo-ecr-credentials') {
+                docker.image('demo').push('latest')
+            }
         }
     }
 }
