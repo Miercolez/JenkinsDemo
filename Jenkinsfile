@@ -1,6 +1,13 @@
 pipeline{
     agent any
 
+    enviroment{
+        BITBUCKET = credentials('Bitbucket')
+        sonarToken = credentials('JenkinsAgentSonar')
+        USERNAME = credentials('DOCKER_USERNAME')
+        PASSWORD = credentials('DOCKER_PASSWORD')
+    }
+
     tools{
         maven 'Maven 3.6.3'
         jdk 'jdk_16'
@@ -38,7 +45,7 @@ pipeline{
         }
         stage('Push docker image to docker hub'){
             steps{
-                sh 'docker login'
+                sh 'docker login -u ${USERNAME} -p ${PASSWORD} dockerregistry.cloud.remote'
             }
         }
     }
