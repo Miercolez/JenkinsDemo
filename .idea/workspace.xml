@@ -62,7 +62,7 @@
       <updated>1617020680068</updated>
       <workItem from="1617020681211" duration="262000" />
       <workItem from="1617021393148" duration="35000" />
-      <workItem from="1617021462341" duration="5781000" />
+      <workItem from="1617021462341" duration="10387000" />
     </task>
     <task id="LOCAL−00001" summary="Added jenkinsfile">
       <created>1617021550314</created>
@@ -118,7 +118,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1617026684827</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Removed one hellow world">
+      <created>1617029982146</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1617029982146</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
