@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <workItem from="1617112257913" duration="596000" />
       <workItem from="1617112868758" duration="69000" />
       <workItem from="1617114096845" duration="146000" />
-      <workItem from="1617115110902" duration="8557000" />
+      <workItem from="1617115110902" duration="8974000" />
     </task>
     <task id="LOCAL−00001" summary="Added jenkinsfile">
       <created>1617021550314</created>
@@ -272,7 +271,13 @@
       <option name="presentableId" value="LOCAL−00033" />
       <updated>1617127860049</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL−00034" summary="Removed one hellow world">
+      <created>1617129557596</created>
+      <option name="number" value="LOCAL−00034" />
+      <option name="presentableId" value="LOCAL−00034" />
+      <updated>1617129557596</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

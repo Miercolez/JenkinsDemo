@@ -1,5 +1,6 @@
 pipeline{
     agent any
+    def app
 
 
     tools{
@@ -36,6 +37,9 @@ pipeline{
             steps {
                 sh 'docker build -t jonasfredriksson/jenkinsdemo:1.1 .'
             }
+        }
+        stage('Build image') {
+            app = docker.build("brandonjones085/test")
         }
         stage('Push image') {
             docker.withRegistry('https://registry.hub.docker.com', 'git') {
