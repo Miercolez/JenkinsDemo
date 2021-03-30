@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JenkinsDemo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JenkinsDemo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hello/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +40,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +53,13 @@
       <workItem from="1617021462341" duration="11089000" />
       <workItem from="1617093588738" duration="282000" />
       <workItem from="1617093886127" duration="7000" />
-      <workItem from="1617101838515" duration="320000" />
+      <workItem from="1617101838515" duration="1432000" />
+      <workItem from="1617106095974" duration="617000" />
+      <workItem from="1617110974389" duration="1260000" />
+      <workItem from="1617112257913" duration="596000" />
+      <workItem from="1617112868758" duration="69000" />
+      <workItem from="1617114096845" duration="146000" />
+      <workItem from="1617115110902" duration="1255000" />
     </task>
     <task id="LOCAL−00001" summary="Added jenkinsfile">
       <created>1617021550314</created>
@@ -143,7 +133,19 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1617092137574</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="Removed one hellow world">
+      <created>1617102165764</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1617102165764</updated>
+    </task>
+    <task id="LOCAL−00014" summary="Removed one hellow world">
+      <created>1617102256497</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1617102256497</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
