@@ -7,22 +7,22 @@ pipeline{
         jdk 'jdk_16'
     }
 
-    stages{
-        stage('Build'){
-            steps{
+    stages {
+        stage('Build') {
+            steps {
                 echo 'Hello World'
                 sh 'java --version'
                 sh 'mvn --version'
                 sh 'mvn clean compile'
             }
         }
-        stage('Test'){
-            steps{
+        stage('Test') {
+            steps {
                 sh 'mvn test'
             }
         }
-        stage('Packing to JAR'){
-            steps{
+        stage('Packing to JAR') {
+            steps {
                 sh 'mvn package'
                 sh 'docker --version'
             }
@@ -32,14 +32,15 @@ pipeline{
                 }
             }
         }
-        stage('Create docker image'){
-            steps{
+        stage('Create docker image') {
+            steps {
                 sh 'docker build -t jonasfredriksson/jenkinsdemo:1.1 .'
             }
         }
-        stage('Push docker image to docker hub'){
-            steps{
-                sh 'docker login -u ${USERNAME} -p ${PASSWORD} dockerregistry.cloud.remote'
+        stage('Push image') {
+            docker.withRegistry('https://registry.hub.docker.com', 'git') {
+                app.push("${env.BUILD_NUMBER}")
+                app.push("latest")
             }
         }
     }
