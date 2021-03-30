@@ -26,6 +26,7 @@
                                 hello.HelloWorld
                             </mainClass>
                         </manifest>
+                        <includeScope>compile</includeScope>
                     </archive>
                 </configuration>
             </plugin>
