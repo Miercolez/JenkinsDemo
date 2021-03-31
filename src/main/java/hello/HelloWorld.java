@@ -1,10 +1,15 @@
 package hello;
 
+import java.util.Scanner;
+
 public class HelloWorld {
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Hello World");
-        System.out.println("Hello World");
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Write your name: ");
+        var name = sc.nextLine();
+        System.out.println("Hello " + name);
+
     }
 }
