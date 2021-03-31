@@ -343,7 +343,13 @@
       <option name="presentableId" value="LOCAL−00043" />
       <updated>1617196796888</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL−00044" summary="Removed one hellow world">
+      <created>1617198481850</created>
+      <option name="number" value="LOCAL−00044" />
+      <option name="presentableId" value="LOCAL−00044" />
+      <updated>1617198481850</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
