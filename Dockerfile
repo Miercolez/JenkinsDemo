@@ -1,3 +1,5 @@
-FROM java:latest
+FROM openjdk:12-alpine
 EXPOSE 8080
-COPY ./target/JenkinsDemo-1.0-SNAPSHOT.jar $DEPLOY_DIR
+COPY ./target/JenkinsDemo-1.0-SNAPSHOT.jar /JenkinsDemo.jar
+
+CMD ["java" , "-jar" , "/jenkinsdemo.jar"]

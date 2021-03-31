@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
+    <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="Updated the Dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +350,13 @@
       <option name="presentableId" value="LOCAL−00044" />
       <updated>1617198481850</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL−00045" summary="Removed one hellow world">
+      <created>1617200072369</created>
+      <option name="number" value="LOCAL−00045" />
+      <option name="presentableId" value="LOCAL−00045" />
+      <updated>1617200072369</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +392,8 @@
     <MESSAGE value="Implemented mvn test in jenkinsfile" />
     <MESSAGE value="Added another hello" />
     <MESSAGE value="Removed one hellow world" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed one hellow world" />
+    <MESSAGE value="Updated the Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the Dockerfile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
