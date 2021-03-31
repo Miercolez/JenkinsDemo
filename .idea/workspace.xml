@@ -22,6 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -47,6 +48,21 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -315,7 +331,19 @@
       <option name="presentableId" value="LOCAL−00041" />
       <updated>1617140069030</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL−00042" summary="Removed one hellow world">
+      <created>1617196733112</created>
+      <option name="number" value="LOCAL−00042" />
+      <option name="presentableId" value="LOCAL−00042" />
+      <updated>1617196733112</updated>
+    </task>
+    <task id="LOCAL−00043" summary="Removed one hellow world">
+      <created>1617196796888</created>
+      <option name="number" value="LOCAL−00043" />
+      <option name="presentableId" value="LOCAL−00043" />
+      <updated>1617196796888</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
