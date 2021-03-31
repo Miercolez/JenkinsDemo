@@ -1,15 +1,14 @@
 package hello;
 
-import java.util.Scanner;
+
+import org.apache.commons.lang3.StringUtils;
 
 public class HelloWorld {
 
     public static void main(String[] args) {
+        String trimmed = StringUtils.trim("   hejsan    ");
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Write your name: ");
-        var name = sc.nextLine();
-        System.out.println("Hello " + name);
+        System.out.println(trimmed);
 
     }
 }

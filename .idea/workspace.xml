@@ -7,6 +7,7 @@
     <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1qQnSHlWwYf6SuHxYaofLlQ5l0m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -374,7 +378,13 @@
       <option name="presentableId" value="LOCAL−00048" />
       <updated>1617202852413</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL−00049" summary="Updated the Dockerfile">
+      <created>1617204285806</created>
+      <option name="number" value="LOCAL−00049" />
+      <option name="presentableId" value="LOCAL−00049" />
+      <updated>1617204285806</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
