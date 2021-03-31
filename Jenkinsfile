@@ -33,13 +33,13 @@ pipeline {
         }
         stage('Create docker image') {
             steps {
-                sh 'docker build -t jonasfredriksson/jenkinsdemo:1.1 .'
+                sh 'docker build -t jonasfredriksson/jenkinsdemo:$BUILD_NUMBER .'
             }
         }
         stage('Push image to docker hub'){
             steps{
                 withDockerRegistry([credentialsId: "git", url: ""]){
-                    sh 'docker push jonasfredriksson/jenkinsdemo:1.1'
+                    sh 'docker push jonasfredriksson/jenkinsdemo:$BUILD_NUMBER'
                 }
             }
         }
