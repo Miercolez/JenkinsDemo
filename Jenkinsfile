@@ -22,6 +22,7 @@ pipeline {
         }
         stage('Packing to JAR') {
             steps {
+                sh 'mvn release:prepare -DdryRun=true'
                 sh 'mvn package'
                 sh 'docker --version'
             }
@@ -33,13 +34,13 @@ pipeline {
         }
         stage('Create docker image') {
             steps {
-                sh 'docker build -t jonasfredriksson/jenkinsdemo:1.1 .'
+                sh 'docker build -t jonasfredriksson/jenkinsdemo:1.2 .'
             }
         }
         stage('Push image to docker hub'){
             steps{
-                withDockerRegistry([credentialsId: "Git", url: ""]){
-                    sh 'docker push jonasfredriksson/jenkinsdemo:1.1'
+                withDockerRegistry([credentialsId: "git", url: ""]){
+                    sh 'docker push jonasfredriksson/jenkinsdemo:1.2'
                 }
             }
         }
