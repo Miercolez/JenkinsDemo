@@ -49,13 +49,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,7 +82,7 @@
       <workItem from="1617112257913" duration="596000" />
       <workItem from="1617112868758" duration="69000" />
       <workItem from="1617114096845" duration="146000" />
-      <workItem from="1617115110902" duration="12702000" />
+      <workItem from="1617115110902" duration="14785000" />
     </task>
     <task id="LOCAL−00001" summary="Added jenkinsfile">
       <created>1617021550314</created>
@@ -340,7 +342,13 @@
       <option name="presentableId" value="LOCAL−00043" />
       <updated>1617177767504</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL−00044" summary="Removed one hellow world">
+      <created>1617178270966</created>
+      <option name="number" value="LOCAL−00044" />
+      <option name="presentableId" value="LOCAL−00044" />
+      <updated>1617178270966</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
