@@ -34,13 +34,13 @@ pipeline {
         }
         stage('Create docker image') {
             steps {
-                sh 'docker build -t jonasfredriksson/jenkinsdemo:$BUILD_NAME .'
+                sh 'docker build -t jonasfredriksson/jenkinsdemo:1.2 .'
             }
         }
         stage('Push image to docker hub'){
             steps{
                 withDockerRegistry([credentialsId: "git", url: ""]){
-                    sh 'docker push jonasfredriksson/jenkinsdemo:$BUILD_NUMBER'
+                    sh 'docker push jonasfredriksson/jenkinsdemo:1.2'
                 }
             }
         }
