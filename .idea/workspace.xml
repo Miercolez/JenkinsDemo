@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,12 +87,6 @@
       <workItem from="1617112868758" duration="69000" />
       <workItem from="1617114096845" duration="146000" />
       <workItem from="1617115110902" duration="12044000" />
-    </task>
-    <task id="LOCAL−00001" summary="Added jenkinsfile">
-      <created>1617021550314</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1617021550314</updated>
     </task>
     <task id="LOCAL−00002" summary="Added jenkinsfile">
       <created>1617021574099</created>
@@ -384,7 +376,13 @@
       <option name="presentableId" value="LOCAL−00049" />
       <updated>1617204285806</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL−00050" summary="Updated the Dockerfile">
+      <created>1617213036625</created>
+      <option name="number" value="LOCAL−00050" />
+      <option name="presentableId" value="LOCAL−00050" />
+      <updated>1617213036625</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
