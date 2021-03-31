@@ -22,6 +22,7 @@ pipeline {
         }
         stage('Packing to JAR') {
             steps {
+                sh 'mvn release:prepare -DdryRun=true'
                 sh 'mvn package'
                 sh 'docker --version'
             }
