@@ -6,27 +6,42 @@ pipeline {
         jdk 'jdk_16'
     }
 
-    def app
-
-
-    stage('Build image') {
-
-        app = docker.build("jonasfredriksson/test")
-    }
-
-    stage('Test image') {
-
-
-        app.inside {
-            sh 'echo "Tests passed"'
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Hello World'
+                sh 'java --version'
+                sh 'mvn --version'
+                sh 'mvn clean compile'
+            }
         }
-    }
-
-    stage('Push image') {
-
-        docker.withRegistry('https://registry.hub.docker.com', 'git') {
-            app.push("${env.BUILD_NUMBER}")
-            app.push("latest")
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Packing to JAR') {
+            steps {
+                sh 'mvn package'
+                sh 'docker --version'
+            }
+            post {
+                success {
+                    archiveArtifacts 'target/*.jar'
+                }
+            }
+        }
+        stage('Create docker image') {
+            steps {
+                sh 'docker build -t jonasfredriksson/jenkinsdemo:1.1 .'
+            }
+        }
+        stage('Push image to docker hub'){
+            steps{
+                withDockerRegistry([credentialsId: "Git", url: ""]){
+                    sh 'docker push jonasfredriksson/jenkinsdemo:1.1'
+                }
+            }
         }
     }
 }
