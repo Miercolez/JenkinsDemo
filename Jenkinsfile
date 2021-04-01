@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Create docker image') {
             steps {
-                sh 'docker build -t jonasfredriksson/jenkinsdemo:${version} .'
+                sh 'docker build -t jonasfredriksson/jenkinsdemo:$BUILD_NUMBER .'
             }
         }
         stage('Push image to docker hub'){
