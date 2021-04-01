@@ -7,7 +7,6 @@
     <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +88,6 @@
       <workItem from="1617112868758" duration="69000" />
       <workItem from="1617114096845" duration="146000" />
       <workItem from="1617115110902" duration="12044000" />
-    </task>
-    <task id="LOCAL−00005" summary="Implemented mvn test in jenkinsfile">
-      <created>1617022395336</created>
-      <option name="number" value="LOCAL−00005" />
-      <option name="presentableId" value="LOCAL−00005" />
-      <updated>1617022395336</updated>
     </task>
     <task id="LOCAL−00006" summary="Added another hello">
       <created>1617022973386</created>
@@ -384,7 +377,13 @@
       <option name="presentableId" value="LOCAL−00053" />
       <updated>1617216063615</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL−00054" summary="Updated the Dockerfile">
+      <created>1617260928419</created>
+      <option name="number" value="LOCAL−00054" />
+      <option name="presentableId" value="LOCAL−00054" />
+      <updated>1617260928419</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
