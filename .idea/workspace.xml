@@ -58,6 +58,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JenkinsDemo\libs" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -93,18 +98,6 @@
       <workItem from="1617112868758" duration="69000" />
       <workItem from="1617114096845" duration="146000" />
       <workItem from="1617115110902" duration="12044000" />
-    </task>
-    <task id="LOCAL−00012" summary="Removed one hellow world">
-      <created>1617092137574</created>
-      <option name="number" value="LOCAL−00012" />
-      <option name="presentableId" value="LOCAL−00012" />
-      <updated>1617092137574</updated>
-    </task>
-    <task id="LOCAL−00013" summary="Removed one hellow world">
-      <created>1617102165764</created>
-      <option name="number" value="LOCAL−00013" />
-      <option name="presentableId" value="LOCAL−00013" />
-      <updated>1617102165764</updated>
     </task>
     <task id="LOCAL−00014" summary="Removed one hellow world">
       <created>1617102256497</created>
@@ -388,7 +381,19 @@
       <option name="presentableId" value="LOCAL−00060" />
       <updated>1617726121562</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL−00061" summary="Release 1.0">
+      <created>1617726865239</created>
+      <option name="number" value="LOCAL−00061" />
+      <option name="presentableId" value="LOCAL−00061" />
+      <updated>1617726865239</updated>
+    </task>
+    <task id="LOCAL−00062" summary="Release 1.0">
+      <created>1617726983251</created>
+      <option name="number" value="LOCAL−00062" />
+      <option name="presentableId" value="LOCAL−00062" />
+      <updated>1617726983251</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

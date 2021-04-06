@@ -55,6 +55,11 @@
                     <tagBase>https://svn.mycompany.com/repos/myapplication/releases</tagBase>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.0</version>
+            </plugin>
 
         </plugins>
     </build>
