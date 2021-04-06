@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9feadd88-4112-449f-8a7d-3e575afa2bb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_password.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +96,6 @@
       <workItem from="1617112868758" duration="69000" />
       <workItem from="1617114096845" duration="146000" />
       <workItem from="1617115110902" duration="12044000" />
-    </task>
-    <task id="LOCAL−00010" summary="Removed one hellow world">
-      <created>1617029982146</created>
-      <option name="number" value="LOCAL−00010" />
-      <option name="presentableId" value="LOCAL−00010" />
-      <updated>1617029982146</updated>
     </task>
     <task id="LOCAL−00011" summary="Removed one hellow world">
       <created>1617092080719</created>
@@ -389,7 +385,13 @@
       <option name="presentableId" value="LOCAL−00058" />
       <updated>1617267088441</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL−00059" summary="Release 1.0">
+      <created>1617700520885</created>
+      <option name="number" value="LOCAL−00059" />
+      <option name="presentableId" value="LOCAL−00059" />
+      <updated>1617700520885</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
